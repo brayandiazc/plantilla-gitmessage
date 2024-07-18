@@ -1,0 +1,44 @@
+# Título: ########50 caracteres###################
+# Resume los cambios de manera concisa.
+# Formato: <tipo>: <asunto>
+# Ejemplo: fix: corregir problema con el inicio de sesión
+
+# Cuerpo: Explica *qué* y *por qué* (no *cómo*). ########72 caracteres####
+# Proporciona una descripción detallada de los cambios realizados y su propósito.
+# Ejemplo:
+#
+# Corregir problema con el proceso de inicio de sesión
+# actualizando el método de autenticación. El método anterior
+# no era compatible con los nuevos requisitos de seguridad.
+#
+# - Los puntos también son válidos
+# - Normalmente se utiliza un guión o asterisco para los puntos
+# - Seguido de un espacio, con líneas en blanco entre ellos
+# - Usando una indentación colgante
+
+# Problema de Github #123 (Opcional)
+# Incluye cualquier número de problemas relacionados, por ejemplo:
+# Closes #123
+
+# Nota:
+# Instrucciones especiales, pasos de prueba, tareas rake, etc.
+# Ejemplo:
+# - Incluir instrucciones para ejecutar pruebas específicas
+
+# Al final: Incluye Co-autoreado por todos los contribuyentes.
+# Co-autoreado por: nombre <usuario@usuarios.noreply.github.com>
+
+# Tipos de títulos recomendados:
+# feat: Nueva característica
+# fix: Corrección de errores
+# refactor: Refactorización de código
+# style: Formateo, comas faltantes, etc.; sin cambios en el código
+# docs: Cambios en la documentación
+# test: Añadir o refactorizar pruebas; sin cambios en el código de producción
+# chore: Cambios en el proceso de construcción o herramientas auxiliares y bibliotecas
+# perf: Cambio de código que mejora el rendimiento
+# ci: Cambios en los archivos y scripts de configuración de CI
+# build: Cambios que afectan el sistema de construcción o dependencias externas
+# revert: Revierte un commit anterior
+# wip: Trabajo en progreso; para commits intermedios para mantener los parches razonablemente dimensionados
+# hack: Solución temporal para avanzar; por favor evítalo
