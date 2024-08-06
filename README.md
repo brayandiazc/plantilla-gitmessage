@@ -1,10 +1,6 @@
 # Plantilla de Mensajes Git
 
-Este repositorio contiene una plantilla de mensajes Git diseñada para ayudar a estandarizar y agilizar los mensajes de commit en tus proyectos. Mensajes de commit consistentes y claros son esenciales para mantener un historial de proyecto legible y mantenible.
-
-## Descripción
-
-Algunos consejos para que el contenido de nuestros commits sea preciso, fácil de escribir, fácil de leer y fácil de interpretar.
+Este repositorio contiene una plantilla de mensajes Git diseñada para ayudar a estandarizar y agilizar los mensajes de commit en tus proyectos. Mensajes de commit consistentes y claros son esenciales para mantener un historial de proyecto legible y mantenible. Esta plantilla proporciona una estructura simple y fácil de seguir para escribir mensajes de commit significativos. Está basada en las recomendaciones de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Consejos para Mensajes Git
 
@@ -20,7 +16,7 @@ Algunos consejos para que el contenido de nuestros commits sea preciso, fácil d
 
 - **feat**: Nueva característica
 - **fix**: Corrección de errores
-- **refactor**: Refactorización de código
+- **refactor**: Refactorización del código
 - **style**: Formateo, comas faltantes, etc.; sin cambios en el código
 - **docs**: Cambios en la documentación
 - **test**: Añadir o refactorizar pruebas; sin cambios en el código de producción
@@ -30,7 +26,7 @@ Algunos consejos para que el contenido de nuestros commits sea preciso, fácil d
 - **build**: Cambios que afectan el sistema de construcción o dependencias externas (por ejemplo, gulp, broccoli, npm)
 - **revert**: Revierte un commit anterior
 - **wip**: Trabajo en progreso; para commits intermedios para mantener los parches razonablemente dimensionados
-- **hack**: Solución temporal para avanzar; por favor evítalo
+- **hack**: Solución temporal para avanzar; trata de evitarlo si es posible
 
 ## Estructura del Commit
 
@@ -79,14 +75,14 @@ Nota:
 Instrucciones especiales, pasos de prueba, tareas rake, etc.
 ```
 
-### Co-autoreado por
+### Coautor
 
 - **Propósito**: Incluye a todos los contribuyentes al final del mensaje del commit.
-- **Formato**: `Co-autoreado por: nombre <usuario@usuarios.noreply.github.com>`
+- **Formato**: `Coautor: nombre <usuario@usuarios.noreply.github.com>`
 - **Ejemplo**:
 
 ```markdown
-Co-autor: John Doe <john.doe@example.com>
+Coautor: John Doe <john.doe@example.com>
 ```
 
 ## Ejemplo de Mensaje de Commit
@@ -109,7 +105,7 @@ Nota:
 - Recuerda actualizar las variables de entorno con la clave secreta.
 - Asegúrate de aplicar las migraciones de base de datos.
 
-Co-autoreado por: Jane Doe <jane.doe@example.com>
+Coautor: Jane Doe <jane.doe@example.com>
 ```
 
 ## Cómo Usar la Plantilla
